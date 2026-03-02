@@ -1,0 +1,25 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2024-04-01",
+  "name": "Reg-Comp-EU-2022-2555",
+  "location": "${default_location}",
+  "dependsOn": [],
+  "identity": {
+    "type": "None"
+  },
+  "properties": {
+    "description": "EU 2022/2555 (NIS2) 2022 policy initiative.",
+    "displayName": "EU 2022/2555 (NIS2) 2022 - Regulatory Compliance",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/42346945-b531-41d8-9e46-f95057672e88",
+    "definitionVersion": "1.*.*",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": [
+      {
+        "message": "EU 2022/2555 (NIS2) 2022 {enforcementMode} be met."
+      }
+    ],
+    "parameters": {},
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  }
+}

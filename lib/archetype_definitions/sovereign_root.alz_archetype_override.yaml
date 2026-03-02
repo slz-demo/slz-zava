@@ -1,6 +1,8 @@
 base_archetype: sovereign_root
 name: sovereign_root_custom
-policy_assignments_to_add: []
+policy_assignments_to_add:
+  - "Reg-Comp-EU-AI-Act-2024"
+  - "Reg-Comp-EU-2022-2555"
 policy_assignments_to_remove: []
 policy_definitions_to_add: []
 policy_definitions_to_remove: []
